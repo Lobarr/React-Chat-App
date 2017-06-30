@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.TitleContainer {
+  flex-grow: 1;
+  background-color: skyblue;
+  padding: 1em;
+}
+.Title {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+}
+
+.connected {
+  background-color: white;
+  font-size: 0.7em;
+  color: skyblue;
+  border-radius: 1em;
+  text-align: center;
+  padding: 0.3em;
+  margin-left: 1em;
+}

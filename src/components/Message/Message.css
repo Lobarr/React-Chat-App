@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+.MessageFrom {
+  display: flex;
+  justify-content: flex-end;  
+}
+
+.MessageTo {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.MessageFromCont {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 0.5em;
+  border-radius: 5px; 
+  margin-right: 1em;
+  max-width: 20em;
+  margin-bottom: 1em;
+}
+
+.MessageToCont {
+  background-color: #AA4465;
+  color: white;  
+  padding: 0.5em;
+  border-radius: 5px; 
+  margin-left: 1em;
+  max-width: 20em;
+  margin-bottom: 1em;
+}
+
+.MessageToCont h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.2em;
+}
+
+.MessageFromCont h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.2em;
+}
+
+.user {
+  float: right;
+  font-size: 0.7em;
+}

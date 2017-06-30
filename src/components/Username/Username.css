@@ -1,0 +1,8 @@
+.Username {
+  font-size: 1.2em;
+  resize: none;
+  padding: 0.2em;
+  align-items: stretch;
+  min-width: 97.5%;
+  min-height: 2em;
+}

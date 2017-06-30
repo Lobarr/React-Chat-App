@@ -1,0 +1,20 @@
+.InputText {
+  display: flex;
+  flex-grow: 1;
+  /*border: 1px solid black;*/
+}
+
+form {
+  flex-grow: 1;
+  /*border: 1px solid purple;*/
+}
+.message {
+  font-size: 1.2em;
+  resize: none;
+  padding: 0.2em;
+  align-items: stretch;
+  min-width: 97.5%;
+  min-height: 2em;
+}
+
+ 

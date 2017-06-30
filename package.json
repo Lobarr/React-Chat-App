@@ -1,0 +1,28 @@
+{
+  "name": "react-chat",
+  "version": "0.1.0",
+  "author": {
+    "name": "Lobarr",
+    "email": "jesulobaegunjobi@hotmail.com",
+    "url": "lobarr.github.io/portfolio"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "socket.io": "^2.0.3",
+    "socket.io-client": "^2.0.3"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.8"
+  },
+  "scripts": {
+    "start": "node server.js && npm run start-react",
+    "start-react": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "server": "nodemon server.js"
+  }
+}

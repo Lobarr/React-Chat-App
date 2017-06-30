@@ -1,0 +1,8 @@
+.ChatWindow {
+  margin-top: 3em;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid skyblue;
+  min-width: 30em;
+  min-height: 45em;
+}

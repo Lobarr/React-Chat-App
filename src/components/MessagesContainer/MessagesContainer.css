@@ -1,0 +1,10 @@
+.MessagesContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 37em;
+  padding-top: 1em;  
+}
+
+/*
+//FIXME: fix the overflow on the message container component 
+*/
