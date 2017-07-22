@@ -32,20 +32,24 @@ export default class Message extends Component {
   render(){
     if(this.props.from){
       return (
-        <div className="MessageFrom">
-          <div className="MessageFromCont">
-            {this.renderMessage()}
-            <RenderUsername username={this.props.username} />
-          </div>   
+        <div>
+          <div className="MessageFrom">
+            <div className="MessageFromCont">
+              {this.renderMessage()}
+              <RenderUsername username={this.props.username} />
+            </div>   
+          </div>
         </div>
       )
     }else {
       return (
-        <div className="MessageTo">
-          <div className="MessageToCont">
-            {this.renderMessage()}
-            <RenderUsername username={this.props.username} />
-          </div>          
+        <div>
+          <div className="MessageTo">
+            <div className="MessageToCont">
+              {this.renderMessage()}
+              <RenderUsername username={this.props.username} />
+            </div>          
+          </div>
         </div>
       )
     }    
@@ -55,3 +59,4 @@ export default class Message extends Component {
 const RenderUsername = ({username})=>(
   <span className="user">- {username ? username : 'Anonymous'}</span>
 )
+

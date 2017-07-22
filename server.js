@@ -2,7 +2,7 @@ const app = require('express')();
 const server = require('http').createServer(app);
 const io = require('socket.io').listen(server);
 const dotenv = require('dotenv').config()
-const port = process.env.PORT || 3001;
+const port = process.env.S_PORT || 3001;
 
 let connections = 0;
 
@@ -23,6 +23,10 @@ io.on('connection', socket => {
 
   socket.on('username', data => {
     io.sockets.emit('username', data)
+  })
+
+  socket.on('typing', data => {
+    socket.broadcast.emit('typing', data)
   })
 })
 

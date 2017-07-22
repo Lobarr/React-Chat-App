@@ -11,7 +11,7 @@ export default class ChatWindow extends Component {
   constructor(props){
     super(props)
     this.state = {
-      username: ''
+      username: '',
     }
     this.getUsername = this.getUsername.bind(this)
   }
@@ -26,7 +26,7 @@ export default class ChatWindow extends Component {
         <Title />
         <Username getUsername={this.getUsername}/>
         <MessagesContainer />
-        <InputText username={this.state.username}/>
+        <InputText username={this.state.username} />
       </div>
     )
   }
